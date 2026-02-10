@@ -11,7 +11,7 @@ public class AñadirLibros {
         System.out.println("Cuantos libros quieres añadir");
         int numero = sc.nextInt();
         sc.nextLine();
-        //Recorremos el bucle para añadir los libros que querramos
+        //Recorremos el bucle para añadir los libros que queramos
         for (int i = 1; i <= numero; i++) {
             System.out.println("Dime el titulo del libro");
             String nombre = sc.nextLine();
